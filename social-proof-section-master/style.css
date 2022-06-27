@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.attribution {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+ 
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+
+.container{
+    width: 70%;
+    margin: 5em auto;
+}
+
+.header-title{
+
+    margin: 0 auto;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+.header-description{
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+}
+
+.rate-container{
+    text-align: center;
+}
+
+.rate{
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.star{
+    margin-bottom: 0.5em;
+}
+
+.review{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 1.8em;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.reviewer-title{
+    color: hsl(333, 80%, 67%);
+    margin-top: 0.3em;
+}
+
+.review-img{
+    border-radius: 50%;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    height: 40px;
+}
+
+.flex{
+    display: flex;
+}
+
+.reviewer-description{
+    line-height: 1.2;
+}
+
+
+@media screen and (min-width:900px){
+
+    
+    .flexs{
+        display: flex;
+    }
+
+    .row{
+        width: 50%;
+    }
+    
+    .rate{
+        display: flex;
+
+    }
+
+    .star{
+       padding-right: 1.6em;
+       padding-left: 1em;
+       margin: 0%;
+    }
+
+    .header-title{
+        width: 60%;
+        text-align: left;
+        margin: 0%;
+        margin-bottom: 0.6em;
+    }
+
+    .header-description{
+        text-align: left;
+        width: 65%;
+        
+    }
+
+    .rate-two{
+        margin-left: 50px;
+    }
+
+    .rate-three{
+        margin-left: 100px;
+    }
+
+    .review-container{
+        display: flex;
+    }
+
+
+    .review-two{
+        position: relative;
+        top: 20px;
+    }
+
+    .review-three{
+        position: relative;
+        top: 40px;
+    }
+}
+
